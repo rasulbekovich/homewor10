@@ -1,13 +1,27 @@
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-            public class Main {
-            public static void main(String[] args) {
-            contains(5,1,2,3,4,5 );}
-            public static boolean contains(int a, int... varargs) {
-            for (int vararg : varargs) {
-            System.out.print(vararg+" ");
-            System.out.println(vararg == a);}
-            return false;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(contains(5, 1, 2, 3, 4, 5));
+        System.out.println("hellio");
+    }
+
+    public static boolean contains(int a, int... varargs) {
+        boolean trueOrfalse = false;
+        for (int vararg : varargs) {
+            if (vararg == a) {
+                trueOrfalse = true;
             }
-            }
+        }
+        return trueOrfalse;
+    }
+}
+
+
+
+
+
+
+
