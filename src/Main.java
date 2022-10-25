@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println(contains(5, 1, 2, 3, 4, 5));
-        System.out.println("hellio");
+
     }
 
     public static boolean contains(int a, int... varargs) {
@@ -16,6 +16,10 @@ public class Main {
             }
         }
         return trueOrfalse;
+    }
+    public  static boolean cool(){
+        System.out.println("hello");
+        return false;
     }
 }
 
